@@ -73,3 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Zack Greenfields React Portfolio
 
 ## Use this portfolio to view all of my work
+
+![alt text][screenshot]
+
+[screenshot]:./src/assets/images/screenshot-of-deployed-challenge-20-application.PNG
+
+[Link to my Deployed Application](https://yks2728.github.io/Zacks-React-Portfolio/)
+
+[Link to Github Repository](https://github.com/yks2728/Zacks-React-Portfolio)
