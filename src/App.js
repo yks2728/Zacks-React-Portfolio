@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Footer from './components/Footer';
+import ContactForm from './components/Contact';
 
 function App() {
   let projects = [
@@ -31,6 +32,7 @@ function App() {
         <Header></Header>
         <Navigation></Navigation>
         {projects.map(project => (<Project props={project}/>))}
+        <ContactForm></ContactForm>
         <Footer></Footer>
       </main>
     </div>
