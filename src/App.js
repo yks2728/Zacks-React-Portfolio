@@ -23,11 +23,11 @@ function App() {
       name: 'ScreenTitleScanner', link: 'https://yks2728.github.io/Screen-Title-Scanner/', repo: 'https://github.com/yks2728/Screen-Title-Scanner', description: 'A search engine used to search for movies and tv shows'
     },
     {
-      name: 'WorkdayScheduler', link: 'https://yks2728.github.io/Zack-Greenfields-Innovative-Work-Day-Scheduler/', repo: 'https://github.com/yks2728/Zack-Greenfields-Innovative-Work-Day-Scheduler', description: 'A scheduler used to enter hours'
+      name: 'TMDBMovieSearch', link: 'https://stunning-mas-green-jas.herokuapp.com/', repo: 'https://github.com/Jaswal1p/stunning-mas-green-jas', description: 'A movie search app used to search for and save movies'
     },
     {
-      name: 'TMDBMovieSearch', link: 'https://stunning-mas-green-jas.herokuapp.com/', repo: 'https://github.com/Jaswal1p/stunning-mas-green-jas', description: 'A movie search app used to search for and save movies'
-    }
+      name: 'WorkDayScheduler', link: 'https://yks2728.github.io/Zack-Greenfields-Innovative-Work-Day-Scheduler/', repo: 'https://github.com/yks2728/Zack-Greenfields-Innovative-Work-Day-Scheduler', description: 'An app that lets you enter hours'
+    },
   ]
   return (
     <div>
