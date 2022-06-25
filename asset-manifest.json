@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/Zacks-React-Portfolio/static/css/main.1c90f859.css",
-    "main.js": "/Zacks-React-Portfolio/static/js/main.aecba278.js",
+    "main.js": "/Zacks-React-Portfolio/static/js/main.e448d824.js",
     "static/js/787.65f576db.chunk.js": "/Zacks-React-Portfolio/static/js/787.65f576db.chunk.js",
-    "static/media/Portfolio.PNG": "/Zacks-React-Portfolio/static/media/Portfolio.b1b2538199d21609a245.PNG",
-    "static/media/ScreenTitleScanner.PNG": "/Zacks-React-Portfolio/static/media/ScreenTitleScanner.ff7451f779910438c20a.PNG",
-    "static/media/screenshot-of-deployed-challenge-20-application.PNG": "/Zacks-React-Portfolio/static/media/screenshot-of-deployed-challenge-20-application.0672f9b817ea8921ad2c.PNG",
-    "static/media/MyHealthChart.PNG": "/Zacks-React-Portfolio/static/media/MyHealthChart.6bc87f52793db345099f.PNG",
-    "static/media/TmdbMovieSearch.PNG": "/Zacks-React-Portfolio/static/media/TmdbMovieSearch.ad20484fef69d07908d6.PNG",
-    "static/media/PasswordGenerator.PNG": "/Zacks-React-Portfolio/static/media/PasswordGenerator.5d7b2463546566585ed7.PNG",
-    "static/media/BudgetTracker.PNG": "/Zacks-React-Portfolio/static/media/BudgetTracker.3e3c5da30951fc177d1f.PNG",
+    "static/media/cover-image.jpg": "/Zacks-React-Portfolio/static/media/cover-image.3f4b8a47f17655a4ac17.jpg",
+    "static/media/ScreenTitleScanner.png": "/Zacks-React-Portfolio/static/media/ScreenTitleScanner.ff7451f779910438c20a.png",
+    "static/media/MyHealthChart.png": "/Zacks-React-Portfolio/static/media/MyHealthChart.6bc87f52793db345099f.png",
+    "static/media/TmdbMovieSearch.png": "/Zacks-React-Portfolio/static/media/TmdbMovieSearch.ad20484fef69d07908d6.png",
+    "static/media/PasswordGenerator.png": "/Zacks-React-Portfolio/static/media/PasswordGenerator.5d7b2463546566585ed7.png",
+    "static/media/BudgetTracker.png": "/Zacks-React-Portfolio/static/media/BudgetTracker.3e3c5da30951fc177d1f.png",
     "index.html": "/Zacks-React-Portfolio/index.html",
     "main.1c90f859.css.map": "/Zacks-React-Portfolio/static/css/main.1c90f859.css.map",
-    "main.aecba278.js.map": "/Zacks-React-Portfolio/static/js/main.aecba278.js.map",
+    "main.e448d824.js.map": "/Zacks-React-Portfolio/static/js/main.e448d824.js.map",
     "787.65f576db.chunk.js.map": "/Zacks-React-Portfolio/static/js/787.65f576db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c90f859.css",
-    "static/js/main.aecba278.js"
+    "static/js/main.e448d824.js"
   ]
 }
