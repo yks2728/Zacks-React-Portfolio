@@ -1,17 +1,28 @@
-import React from "react";
+import React from 'react';
+import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
-function Project ({props}) {
-    console.log(props);
-    return(
-        <div>
-            <img alt={props.name}src={require(`../../assets/images/${props.name}.PNG`)}></img>
-            <div>
-                <a href={props.link}>{props.name}</a>
-                <a href={props.repo}>github</a>
-                <p>{props.description}</p>
-            </div>
-        </div>
-    );
+function Project({ project }) {
+
+  const { name, repo, link, description } = project;
+
+  return (
+    <div className="project" key={name}>
+      <img
+        src={require(`../../assets/projects/${name}.png`)}
+        alt={removeHyphensAndCapitalize(name)}
+        className="project-bg"
+      />
+      <div className="project-text">
+        <h3>
+          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+          <a href={repo}>
+            <i className="fab fa-github"></i>
+          </a>
+        </h3>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
 }
 
 export default Project;

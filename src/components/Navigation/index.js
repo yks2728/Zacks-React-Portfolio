@@ -1,39 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Navigation() {
-    return (
-        <header>
-            <h2>
-                <a href='/'>
-                    <title>Zack Greenfield's Portfolio</title>
-                </a>
-            </h2>
-            <nav>
-                <ul className='flex-row'>
-                    <li className='mx-2'>
-                        <a href='#about'>
-                            About Me
-                        </a>
-                    </li>
-                    <li className='mx-2'>
-                        <a href='#portfolio'>
-                            Portfolio
-                        </a>
-                    </li>
-                    <li className='mx-2'>
-                        <a href='#contact'>
-                            Contact
-                        </a>
-                    </li>
-                    <li className='mx-2'>
-                        <a href='#resume'>
-                            Resume
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    );
+function Navigation(props) {
+  const {
+    pages = [],
+    setCurrentPage,
+    currentPage,
+  } = props;
+
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentPage.name);
+  }, [currentPage]);
+
+  return (    
+      <nav>
+        <ul className="flex-row">
+          {pages.map((Page) => (
+            <li
+              className={`mx-5 ${
+                currentPage.name === Page.name && 'navActive'
+                }`}
+              key={Page.name}
+            >
+              <span
+                onClick={() => setCurrentPage(Page)}
+              >
+                {capitalizeFirstLetter(Page.name)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </nav>
+  );
 }
 
 export default Navigation;
