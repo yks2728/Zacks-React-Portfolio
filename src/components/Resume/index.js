@@ -26,6 +26,11 @@ function Resume() {
           <li>MongoDB, Mongoose</li>
           <li>REST</li>
           <li>GraphQL</li>
+        <h4>Other Proficiencies</h4>
+        <ul className="skills">
+          <li>Python</li>
+          <li>Machine Learning</li>
+        </ul>
         </ul>
       </div>
     </section>
