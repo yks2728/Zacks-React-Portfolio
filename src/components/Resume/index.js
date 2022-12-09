@@ -13,7 +13,7 @@ function Resume() {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>jQuery</li>
-          <li>responsive design</li>
+          <li>Responsive Design</li>
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
