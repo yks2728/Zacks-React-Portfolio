@@ -34,6 +34,18 @@ function Portfolio() {
       description: 'React/JavaScript/CSS/MongoDB',
       link: "https://stunning-mas-green-jas.herokuapp.com/",
       repo: "https://github.com/Jaswal1p/stunning-mas-green-jas"
+    },
+    {
+      name: 'NoteTaker',
+      description: 'Express/Node/CSS/SQL',
+      link: "https://zacks-note-taker-app.herokuapp.com/",
+      repo: "https://github.com/yks2728/Zacks-Innovative-Note-Taker-Application"
+    },
+    {
+      name: 'WorkDayScheduler',
+      description: 'ThirdPartyApi/HTML/CSS/JavaScript',
+      link: "https://yks2728.github.io/Zack-Greenfields-Innovative-Work-Day-Scheduler/",
+      repo: "https://github.com/yks2728/Zack-Greenfields-Innovative-Work-Day-Scheduler"
     }
   ]);
 
