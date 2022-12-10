@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Zacks-React-Portfolio/static/css/main.1c90f859.css",
-    "main.js": "/Zacks-React-Portfolio/static/js/main.599c9b8e.js",
+    "main.js": "/Zacks-React-Portfolio/static/js/main.59945efd.js",
     "static/js/787.65f576db.chunk.js": "/Zacks-React-Portfolio/static/js/787.65f576db.chunk.js",
     "static/media/cover-image.jpg": "/Zacks-React-Portfolio/static/media/cover-image.3f4b8a47f17655a4ac17.jpg",
     "static/media/ScreenTitleScanner.png": "/Zacks-React-Portfolio/static/media/ScreenTitleScanner.ff7451f779910438c20a.png",
+    "static/media/WorkDayScheduler.png": "/Zacks-React-Portfolio/static/media/WorkDayScheduler.0faf2f86b7dd8b4ea219.png",
     "static/media/MyHealthChart.png": "/Zacks-React-Portfolio/static/media/MyHealthChart.6bc87f52793db345099f.png",
     "static/media/TmdbMovieSearch.png": "/Zacks-React-Portfolio/static/media/TmdbMovieSearch.ad20484fef69d07908d6.png",
     "static/media/PasswordGenerator.png": "/Zacks-React-Portfolio/static/media/PasswordGenerator.5d7b2463546566585ed7.png",
     "static/media/BudgetTracker.png": "/Zacks-React-Portfolio/static/media/BudgetTracker.3e3c5da30951fc177d1f.png",
     "index.html": "/Zacks-React-Portfolio/index.html",
     "main.1c90f859.css.map": "/Zacks-React-Portfolio/static/css/main.1c90f859.css.map",
-    "main.599c9b8e.js.map": "/Zacks-React-Portfolio/static/js/main.599c9b8e.js.map",
+    "main.59945efd.js.map": "/Zacks-React-Portfolio/static/js/main.59945efd.js.map",
     "787.65f576db.chunk.js.map": "/Zacks-React-Portfolio/static/js/787.65f576db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c90f859.css",
-    "static/js/main.599c9b8e.js"
+    "static/js/main.59945efd.js"
   ]
 }
