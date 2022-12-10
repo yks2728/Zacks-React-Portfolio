@@ -18,6 +18,12 @@ function Portfolio() {
       repo: "https://github.com/Jaswal1p/my-health-chart"
     },
     {
+      name: 'NoteTaker',
+      description: 'ExpressJs/NodeJs/JavaScript/SQL',
+      link: 'https://zacks-note-taker-app.herokuapp.com/',
+      repo: 'https://github.com/yks2728/Zacks-Innovative-Note-Taker-Application'
+    },
+    {
       name: 'PasswordGenerator',
       description: 'JavaScript',
       link: "https://yks2728.github.io/Password-Generator/",
@@ -35,6 +41,12 @@ function Portfolio() {
       link: "https://stunning-mas-green-jas.herokuapp.com/",
       repo: "https://github.com/Jaswal1p/stunning-mas-green-jas"
     },
+    {
+      name: 'WorkDayScheduler',
+      description: 'ThirdPartyApis/CSS/HTML/JavaScript',
+      link: "https://yks2728.github.io/Zack-Greenfields-Innovative-Work-Day-Scheduler/",
+      repo: "https://github.com/yks2728/Zack-Greenfields-Innovative-Work-Day-Scheduler"
+    }
   ]);
 
   return (
